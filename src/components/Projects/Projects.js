@@ -7,6 +7,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import cashier1 from "../../Assets/Projects/cashier1.png"
 
 function Projects() {
   return (
@@ -67,6 +68,16 @@ function Projects() {
               title="WashWush"
               description="May 2024 - Final Project in the form of Laundry App (WashWush) A third party laundry application that can facilitate laundry services and laundry customers. This application is based on real-time and accepts requests from customers Laundry will vary depending on customer requests (Personal Orders), so that it better reaches the wishes of customers. Important features such as location, payment, and chat to make it easier for users."
               ghLink="https://github.com/daffaakmaln/final_projext_TA"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cashier1}
+              isBlog={false}
+              title="Cashier App (Cafe)"
+              description=" Okt 2024 - A Flutter POS (Point of Sale) project for Wikusama Cafe. This cashier system supports three types of users: cashiers, managers, and admins. The system is designed to streamline cafe operations, making order management and transaction tracking easier. Customers can make additional orders by returning to the cashier, where their data can be updated. Payment is made before customers leave the cafe."
+              ghLink="https://github.com/daffaakmaln/UKK_Wikusama_cafe"
             />
           </Col>
 
