@@ -8,9 +8,8 @@ function Type() {
         strings: [
           "UI/UX Designer",
           "Mobile Developer",
-          "Software Developer",
-          "Front End Developer",
-          "Hamba Allah",
+          "Low-Code Developer",
+          "Associate Data Scientist",
           "Dffinnsz!",
         ],
         autoStart: true,

@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import CertificatesCarousel from "./CertificatesCarousel";
+import certificates from "./DataCertificates";
 
 function About() {
   return (
@@ -35,7 +37,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Learned <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
@@ -44,8 +46,17 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
         <Github />
+
+        <Row>
+          <Col md={12} className="certificates-section">
+            <h1>
+              Recently <span className="purple"> Certification </span>
+            </h1>
+            <CertificatesCarousel certificates={certificates} />
+          </Col>
+        </Row>
+        
       </Container>
     </Container>
   );

@@ -741,3 +741,100 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Certificates session */
+/* --------- */
+
+.certificate-card {
+  border: 1px solid #7b2a83;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #992aed48;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 500px; /* Default width for larger screens */
+  width: 90%; /* Ensures it adjusts on smaller screens */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .certificate-card {
+    max-width: 90%; /* Reduce max-width on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .certificate-card {
+    max-width: 100%; /* Full width on small screens */
+  }
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+}
+
+.certificate-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.certificate-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.certificate-info p {
+  font-size: 1em;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.certificate-info button {
+  background-color: #6c63ff;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate-info button:hover {
+  background-color: #5752d1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #6c63ff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.certificates-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.certificates-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.custom-modal .modal-content {
+  max-width: 90vw; /* 90% of the screen width */
+  max-height: 90vh; /* 90% of the screen height */
+}
+
+.modal-img {
+  width: 100%;  /* Make image fill modal width */
+  max-height: 85vh; /* Ensure it fits the screen */
+  object-fit: contain; /* Prevent distortion */
+}

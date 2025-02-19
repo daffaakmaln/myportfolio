@@ -11,6 +11,7 @@ import {
   DiCss3Full,
   DiAndroid,
   DiMysql,
+  DiPython,
 } from "react-icons/di";
 import {
   SiFlutter,
@@ -24,10 +25,10 @@ function Techstack() {
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiCss3Full />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3Full />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -52,6 +53,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
       </Col>
     </Row>
   );

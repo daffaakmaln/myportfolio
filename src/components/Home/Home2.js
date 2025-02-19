@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar1.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,9 +15,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm interested in programming and I think I've at least learned something… 🤷‍♂️
+              I'm interested in programming and I think I've at least learned
+              something… 🤷‍♂️
               <br />
-              <br />I have been exploring languages like 
+              <br />
+              I have been exploring languages like
               <i>
                 <b className="purple"> Javascript, Dart/Flutter and Java. </b>
               </i>
@@ -31,14 +29,12 @@ function Home2() {
               <i>
                 <b className="purple">Software Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  UI/UX Design.
-                </b>
+                <b className="purple">UI/UX Design.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing 
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for developing with{" "}
+              <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -53,7 +49,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{ width: '300px', height: '300px' }}/>
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ width: "300px", height: "300px" }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -111,4 +112,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

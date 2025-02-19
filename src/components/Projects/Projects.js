@@ -76,11 +76,10 @@ function Projects() {
               imgPath={cashier1}
               isBlog={false}
               title="Cashier App (Cafe)"
-              description=" Okt 2024 - A Flutter POS (Point of Sale) project for Wikusama Cafe. This cashier system supports three types of users: cashiers, managers, and admins. The system is designed to streamline cafe operations, making order management and transaction tracking easier. Customers can make additional orders by returning to the cashier, where their data can be updated. Payment is made before customers leave the cafe."
+              description=" Okt 2024 - A Flutter POS (Point of Sale) project for Wikusama Cafe. This cashier system supports three types of users: cashiers, managers, and admins. The system is designed to streamline cafe operations, making order management and transaction tracking easier. Customers can make additional orders by returning to the cashier, where their data can be updated. Payment is made before customers leave the cafe.                         "
               ghLink="https://github.com/daffaakmaln/UKK_Wikusama_cafe"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
