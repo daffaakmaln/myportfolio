@@ -51,7 +51,7 @@ function About() {
         <Row>
           <Col md={12} className="certificates-section">
             <h1>
-              Recently <span className="purple"> Certification </span>
+            What I've <span className="purple"> Been Up To </span>
             </h1>
             <CertificatesCarousel certificates={certificates} />
           </Col>

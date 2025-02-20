@@ -829,12 +829,23 @@ button:focus {
 }
 
 .custom-modal .modal-content {
-  max-width: 90vw; /* 90% of the screen width */
-  max-height: 90vh; /* 90% of the screen height */
+  background: transparent; /* Makes background transparent */
+  border: none;
+  box-shadow: none;
 }
 
-.modal-img {
-  width: 100%;  /* Make image fill modal width */
-  max-height: 85vh; /* Ensure it fits the screen */
-  object-fit: contain; /* Prevent distortion */
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Dim background effect */
 }
+
+.full-modal-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+

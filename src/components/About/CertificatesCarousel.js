@@ -43,11 +43,17 @@ const CertificatesCarousel = ({ certificates }) => {
         show={showModal}
         onHide={handleClose}
         centered
-        dialogClassName="custom-modal"
+        fullscreen
+        className="custom-modal"
       >
-        <Modal.Body className="text-center">
-          <img src={selectedImage} alt="Certificate" className="modal-img" />
-        </Modal.Body>
+        <div className="modal-overlay" onClick={handleClose}>
+          <img
+            src={selectedImage}
+            alt="Certificate"
+            className="full-modal-img"
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking the image
+          />
+        </div>
       </Modal>
     </>
   );
